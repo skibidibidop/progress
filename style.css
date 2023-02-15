@@ -1,4 +1,9 @@
 body {
     display: flex;
     flex: 1;
+    min-height: 100vh;
+}
+
+.main {
+    padding-left: 10px;
 }
