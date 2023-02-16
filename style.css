@@ -7,7 +7,11 @@ a {
 }
 
 a:link, a:visited {
-    color:#eebf6d;
+    color:#9b6b2d;
+}
+
+a:hover {
+    color: #eebf6d;
 }
 
 body {
@@ -19,12 +23,13 @@ body {
 }
 
 .main {
-    padding-left: 10px;
-    background-color: #efe7dc;
+    padding-left: 20px;
+    color: #eebf6d;
+    background-color: #3c786b;
 }
 
 .navbar {
-    color: #eebf6d;
+    color: #9b6b2d;
     font-size: 24px;
     background-color: #1f4e4d;
     border-right: 2px solid #9b6b2d;
