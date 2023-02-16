@@ -23,6 +23,9 @@ body {
 }
 
 .main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding-left: 20px;
     color: #eebf6d;
     background-color: #3c786b;
@@ -43,4 +46,23 @@ body {
 
 .navlist li {
     padding: 30px;
+}
+
+.home-title, .author {
+    text-align: center;
+}
+
+.home-title {
+    margin-bottom: 0px;
+}
+
+.author {
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.ongoing, .now-learning {
+    text-align: right;
+    padding-right: 20px;
 }
