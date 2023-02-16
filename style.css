@@ -27,12 +27,14 @@ body {
     flex: 1;
     flex-direction: column;
     padding-left: 20px;
+    padding-right: 20px;
     color: #eebf6d;
     background-color: #3c786b;
 }
 
 .navbar {
     color: #9b6b2d;
+    max-width: 200px;
     font-size: 24px;
     background-color: #1f4e4d;
     border-right: 2px solid #9b6b2d;
@@ -40,8 +42,7 @@ body {
 
 .navlist {
     list-style: none;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 .navlist li {
@@ -64,5 +65,10 @@ body {
 
 .ongoing, .now-learning {
     text-align: right;
-    padding-right: 20px;
+}
+
+.divide-line {
+    border: 1px solid #1f4e4d;
+    margin-left: 30%;
+    margin-right: 30%;
 }
