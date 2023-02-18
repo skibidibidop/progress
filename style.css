@@ -69,6 +69,11 @@ body {
 
 .ongoing, .now-learning {
     text-align: right;
+    margin-right: 30px;
+}
+
+.finProj {
+    margin-left: 20px;
 }
 
 .divide-line {
@@ -99,4 +104,46 @@ body {
 .siteEvol-descContainer {
     padding-right: 50px;
     padding-left: 40px;
+}
+
+.ongContainer {
+    display: flex;
+    flex: 1;
+    background-color: #1f4e4d;
+    border: 10px solid #1f4e4d;
+    border-radius: 20px;
+}
+
+.ongDesc {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.ongDesc h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ongDesc .ongDate {
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.ongImg {
+    display: flex;
+    flex: 1, 1, 0;
+}
+
+.ongImg img {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 20px;
 }
