@@ -1,3 +1,5 @@
+/* Applicable to all */
+
 * {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -49,26 +51,8 @@ body {
     padding: 30px;
 }
 
-.home-title, .author {
+.title-home, .title-site-evol, .author-home {
     text-align: center;
-}
-
-.home-title {
-    margin-bottom: 0px;
-}
-
-.home-title.site-evol {
-    margin-bottom: 15px;
-}
-
-.author {
-    font-size: 17px;
-    font-style: italic;
-    margin-top: 2px;
-}
-
-.finProj {
-    margin-left: 20px;
 }
 
 .divide-line {
@@ -76,6 +60,120 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 30px;
+}
+
+/* Home Page */
+
+.title-home{
+    margin-bottom: 0px;
+}
+
+.author-home {
+    font-size: 17px;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+.right-align-header-home {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.right-align-box-home {
+    display: flex;
+    flex: 1;
+    background-color: #1f4e4d;
+    border: 10px solid #1f4e4d;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+
+.right-align-desc-home {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.right-align-desc-home h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.right-align-desc-home .right-align-date-home {
+    padding-right: 5px;
+    margin: 0px;
+}
+
+.right-align-img-home {
+    display: flex;
+    flex: 1, 1, 0;
+}
+
+.right-align-img-home img {
+    border: 2px solid #9b6b2d;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.left-align-header-home {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.left-align-box-home {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border: 3px solid #1f4e4d;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+
+.left-align-img-home {
+    display: flex;
+    flex: 1, 1, 0;
+}
+
+.left-align-img-home img {
+    border: 3px solid #eebf6d;
+    max-height: 300px;
+    margin: 20px;
+}
+
+.left-align-desc-home {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.left-align-desc-home h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.left-align-desc-home .left-align-date-home {
+    padding-left: 5px;
+    margin: 0px;
+}
+
+/* Site Evolution */
+
+.title-site-evol {
+    margin-bottom: 15px;
 }
 
 .rightImgStatBox {
@@ -87,13 +185,13 @@ body {
     border-radius: 20px;
     margin-bottom:5px;
     margin-top: 5px;
-}
+}    
 
 .rightImgStatBox img {
     flex: 1, 0, 0;
     border: 1px solid black;
     max-width: 600px;
-}
+}    
 
 .siteEvol-rightImgContainer {
     display: flex;
@@ -129,98 +227,4 @@ body {
 .siteEvol-leftDescContainer {
     padding-right: 40px;
     padding-left: 40px;
-}
-
-.home-rightAlignContainer {
-    text-align: right;
-    margin-right: 30px;
-}
-
-.rightAlignContainer {
-    display: flex;
-    flex: 1;
-    background-color: #1f4e4d;
-    border: 10px solid #1f4e4d;
-    border-radius: 20px;
-    margin-bottom: 3px;
-}
-
-.rightAlignDesc {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    margin-right: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    text-align: right;
-}
-
-.rightAlignDesc h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.rightAlignDesc .rightAlignDate {
-    padding-right: 5px;
-    margin: 0px;
-}
-
-.rightAlignImg {
-    display: flex;
-    flex: 1, 1, 0;
-}
-
-.rightAlignImg img {
-    border: 2px solid #9b6b2d;
-    max-width: 500px;
-    margin: 20px;
-}
-
-.home-leftAlignContainer {
-    text-align: left;
-    margin-left: 30px;
-}
-
-.leftAlignContainer {
-    display: flex;
-    flex: 1;
-    border: 3px solid #1f4e4d;
-    border-radius: 20px;
-    margin-bottom: 3px;
-}
-.leftAlignDesc {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    text-align: left;
-}
-
-.leftAlignDesc h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.leftAlignDesc .leftAlignDate {
-    padding-left: 5px;
-    margin: 0px;
-}
-
-.leftAlignImg {
-    display: flex;
-    flex: 1, 1, 0;
-}
-
-.leftAlignImg img {
-    border: 3px solid #eebf6d;
-    max-height: 300px;
-    margin: 20px;
 }
