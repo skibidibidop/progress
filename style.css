@@ -67,11 +67,6 @@ body {
     margin-top: 2px;
 }
 
-.ongoing, .now-learning {
-    text-align: right;
-    margin-right: 30px;
-}
-
 .finProj {
     margin-left: 20px;
 }
@@ -106,15 +101,21 @@ body {
     padding-left: 40px;
 }
 
-.ongContainer {
+.home-rightAlignContainer {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.rightAlignContainer {
     display: flex;
     flex: 1;
     background-color: #1f4e4d;
     border: 10px solid #1f4e4d;
     border-radius: 20px;
+    margin-bottom: 3px;
 }
 
-.ongDesc {
+.rightAlignDesc {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -127,22 +128,22 @@ body {
     text-align: right;
 }
 
-.ongDesc h2 {
+.rightAlignDesc h2 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-.ongDesc .ongDate {
+.rightAlignDesc .rightAlignDate {
     padding-right: 5px;
     margin: 0px;
 }
 
-.ongImg {
+.rightAlignImg {
     display: flex;
     flex: 1, 1, 0;
 }
 
-.ongImg img {
+.rightAlignImg img {
     border: 1px solid black;
     max-width: 500px;
     margin: 20px;
