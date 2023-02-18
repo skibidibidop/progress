@@ -83,6 +83,7 @@ body {
     flex: 1, 1, 0;
     align-items: center;
     background-color: #1f4e4d;
+    border-radius: 20px;
 }
 
 .leftImgStatBox img {
