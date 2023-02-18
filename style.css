@@ -75,4 +75,28 @@ body {
     border: 1px solid #1f4e4d;
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 30px;
+}
+
+.leftImgStatBox {
+    display: flex;
+    flex: 1, 1, 0;
+    align-items: center;
+    background-color: #1f4e4d;
+}
+
+.leftImgStatBox img {
+    border: 1px solid black;
+    max-width: 600px;
+}
+
+.siteEvol-imgContainer {
+    display: flex;
+    flex: 1, 1, 0;
+    margin: 20px;
+}
+
+.siteEvol-descContainer {
+    padding-right: 50px;
+    padding-left: 40px;
 }
