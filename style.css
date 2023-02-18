@@ -57,6 +57,10 @@ body {
     margin-bottom: 0px;
 }
 
+.home-title.site-evol {
+    margin-bottom: 15px;
+}
+
 .author {
     font-size: 17px;
     font-style: italic;
