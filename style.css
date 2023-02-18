@@ -1,4 +1,4 @@
-/* Applicable to all */
+/* ////////////////// APPLICABLE TO ALL ////////////////// */
 
 * {
     font-family: 'Courier New', Courier, monospace;
@@ -51,7 +51,7 @@ body {
     padding: 30px;
 }
 
-.title-home, .title-site-evol, .author-home {
+.title-home, .title-sEvol, .author-home {
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* Home Page */
+/* //////////////////// HOME PAGE //////////////////// */
 
 .title-home{
     margin-bottom: 0px;
@@ -170,13 +170,23 @@ body {
     margin: 0px;
 }
 
-/* Site Evolution */
+/* //////////////////// SITE EVOLUTION //////////////////// */
 
-.title-site-evol {
+.main-sEvol {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    background-color: #e5e1ce;
+}
+
+.title-sEvol {
     margin-bottom: 15px;
 }
 
-.rightImgStatBox {
+.right-align-box-sEvol {
     display: flex;
     flex: 1, 1, 0;
     align-items: center;
@@ -187,44 +197,45 @@ body {
     margin-top: 5px;
 }    
 
-.rightImgStatBox img {
+.right-align-box-sEvol img {
     flex: 1, 0, 0;
     border: 1px solid black;
     max-width: 600px;
 }    
 
-.siteEvol-rightImgContainer {
-    display: flex;
-    flex: 1, 0, 0;
-    margin: 20px;
-}
-
-.siteEvol-rightDescContainer {
-    padding-right: 40px;
+.right-align-desc-sEvol {
+    flex: 1;
+    padding-right: 0px;
     padding-left: 40px;
     text-align: right;
 }
 
-.leftImgStatBox {
-    display: flex;
-    flex: 1, 1, 0;
-    align-items: center;
-    background-color: #1f4e4d;
-    border-radius: 20px;
-}
-
-.leftImgStatBox img {
-    border: 1px solid black;
-    max-width: 600px;
-}
-
-.siteEvol-leftImgContainer {
+.right-img-box-sEvol {
     display: flex;
     flex: 1, 1, 0;
     margin: 20px;
 }
 
-.siteEvol-leftDescContainer {
+.left-align-box-sEvol {
+    display: flex;
+    flex: 1, 1, 0;
+    align-items: center;
+    border: 3px solid #1f4e4d;
+    border-radius: 20px;
+}
+
+.left-align-box-sEvol img {
+    border: 1px solid black;
+    max-width: 600px;
+}
+
+.left-img-box-sEvol {
+    display: flex;
+    flex: 1, 1, 0;
+    margin: 20px;
+}
+
+.left-align-desc-sEvol {
     padding-right: 40px;
     padding-left: 40px;
 }
