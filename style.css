@@ -94,13 +94,17 @@ body {
     border-radius: 50%;
 }
 
+.info-container-home:hover {
+    border: 3px solid #eebf6d;
+}
+
 .info-container-home img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.info-container-home:hover {
-    border: 3px solid #eebf6d;
+.info-container-home img:hover {
+    opacity: 75%;
 }
 
 .right-align-header-home {
