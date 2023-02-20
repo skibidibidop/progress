@@ -90,13 +90,17 @@ body {
 .info-container-home {
     width: 100px;
     height: 100px;
-    border: 3px solid #eebf6d;
+    border: 3px dashed #eebf6d;
     border-radius: 50%;
 }
 
 .info-container-home img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.info-container-home:hover {
+    border: 3px solid #eebf6d;
 }
 
 .right-align-header-home {
