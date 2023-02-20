@@ -35,11 +35,18 @@ body {
 }
 
 .navbar {
+    position: fixed;
     color: #9b6b2d;
     max-width: 200px;
+    min-height: 100vh;
     font-size: 24px;
     background-color: #1f4e4d;
     border-right: 2px solid #9b6b2d;
+}
+
+.behind-navbar {
+    width: 200px;
+    height: 100vh;
 }
 
 .navlist {
