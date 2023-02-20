@@ -55,11 +55,18 @@ body {
     text-align: center;
 }
 
-.divide-line {
+.upper-divide-line {
     border: 1px solid #1f4e4d;
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.lower-divide-line {
+    border: 1px solid #1f4e4d;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
 }
 
 /* //////////////////// HOME PAGE //////////////////// */
@@ -72,6 +79,24 @@ body {
     font-size: 17px;
     font-style: italic;
     margin-top: 2px;
+}
+
+.myinfo-home {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.info-container-home {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #eebf6d;
+    border-radius: 50%;
+}
+
+.info-container-home img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .right-align-header-home {
@@ -109,6 +134,10 @@ body {
 .right-align-desc-home .right-align-date-home {
     padding-right: 5px;
     margin: 0px;
+}
+
+.right-align-date-home {
+    font-style: italic;
 }
 
 .right-align-img-home {
