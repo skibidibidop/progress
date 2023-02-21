@@ -68,6 +68,13 @@ body {
     font-size: 19px;
 }
 
+.contact-info-box {
+    display: flex;
+    flex: 1;
+    padding-right: 2px;
+    justify-content: space-evenly;
+}
+
 .title-home, .title-sEvol, .author-home {
     text-align: center;
 }
@@ -77,13 +84,6 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 20px;
-}
-
-.lower-divide-line {
-    border: 1px solid #1f4e4d;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 20px;
 }
 
 /* //////////////////// HOME PAGE //////////////////// */
@@ -104,25 +104,24 @@ body {
     justify-content: space-around;
 }
 
-.info-container-home {
+.info-container {
     width: 50px;
     height: 50px;
     background-color: #3c786b;
-    border: 3px dashed #eebf6d;
+    border: 2px dashed #eebf6d;
     border-radius: 50%;
-    margin: 20px;
 }
 
-.info-container-home:hover {
-    border: 3px solid #eebf6d;
+.info-container:hover {
+    border: 2px solid #eebf6d;
 }
 
-.info-container-home img {
+.info-container img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.info-container-home img:hover {
+.info-container img:hover {
     opacity: 75%;
 }
 
