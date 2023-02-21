@@ -125,6 +125,7 @@ body {
 .right-align-box-home {
     display: flex;
     flex: 1;
+    align-items: center;
     background-color: #1f4e4d;
     border: 10px solid #1f4e4d;
     border-radius: 20px;
@@ -166,6 +167,7 @@ body {
 .right-align-img-home img {
     border: 2px solid #9b6b2d;
     max-width: 500px;
+    max-height: 200px;
     margin: 20px;
 }
 
