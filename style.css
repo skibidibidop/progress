@@ -105,10 +105,12 @@ body {
 }
 
 .info-container-home {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: #3c786b;
     border: 3px dashed #eebf6d;
     border-radius: 50%;
+    margin: 20px;
 }
 
 .info-container-home:hover {
