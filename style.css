@@ -38,7 +38,7 @@ body {
     position: fixed;
     color: #9b6b2d;
     width: 200px;
-    height: 100vh;
+    height: 100%;
     font-size: 24px;
     background-color: #1f4e4d;
     border-right: 1px solid #9b6b2d;
