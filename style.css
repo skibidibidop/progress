@@ -158,6 +158,9 @@ body {
     margin-top: 0px;
 }
 
+.right-align-desc-home p {
+    padding-right: 10px;
+}
 .right-align-desc-home .right-align-date-home {
     padding-right: 5px;
     margin: 0px;
@@ -222,9 +225,14 @@ body {
     margin-top: 0px;
 }
 
+.left-align-desc-home p {
+    padding-left: 10px;
+}
+
 .left-align-desc-home .left-align-date-home {
     padding-left: 5px;
     margin: 0px;
+    font-style: italic;
 }
 
 /* //////////////////// SITE EVOLUTION //////////////////// */
