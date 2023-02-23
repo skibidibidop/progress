@@ -326,3 +326,10 @@ body {
     padding-right: 40px;
     padding-left: 40px;
 }
+
+/* ////////////////// LEARNING LOG ////////////////// */
+
+.title-home-learnlog {
+    margin-bottom: 17px;
+    text-align: center;
+}
