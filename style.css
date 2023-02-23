@@ -292,7 +292,7 @@ body {
 
 .right-align-desc-sEvol {
     flex: 1;
-    padding-right: 0px;
+    padding-right: 40px;
     padding-left: 40px;
     text-align: right;
 }
