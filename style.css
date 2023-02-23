@@ -333,3 +333,19 @@ body {
     margin-bottom: 17px;
     text-align: center;
 }
+
+.entry-learnlog {
+    color: #eebf6d;
+    padding: 10px;
+    margin-top: 0px;
+    border-top: 1px solid #1f4e4d;
+}
+
+.entry-learnlog a {
+    color: #eebf6d;
+    text-decoration: underline;
+}
+
+.entry-learnlog a:hover {
+    color: #e5e1ce;
+}
