@@ -5,15 +5,15 @@
 }
 
 a {
-    	text-decoration: none;
+	text-decoration: none;
 }
 
 a:link, a:visited {
-    	color: #9b6b2d;
+	color: #9b6b2d;
 }
 
 a:hover {
-    	color: #eebf6d;
+	color: #eebf6d;
 }
 
 body {
@@ -282,13 +282,13 @@ body {
 	border-radius: 20px;
 	margin-bottom:5px;
 	margin-top: 5px;
-}    
+}
 
 .right-align-box-sEvol img {
 	flex: 1, 0, 0;
 	border: 1px solid black;
 	max-width: 600px;
-}    
+}
 
 .right-align-desc-sEvol {
 	flex: 1;
