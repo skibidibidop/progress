@@ -23,7 +23,7 @@ body {
 	margin: 0;
 }
 
-.main {
+main {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
@@ -68,11 +68,19 @@ body {
 	font-size: 19px;
 }
 
-.contact-info-box {
+aside {
 	display: flex;
-	flex: 1;
-	padding-right: 2px;
-	justify-content: space-evenly;
+	flex: 1, 1, 0;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+	padding-top: 30px;
+	color: #9b6b2d;
+	width: 100px;
+	height: 175vh;
+	background-color: #1f4e4d;
+	border-left: 1px solid #9b6b2d;
 }
 
 .title-home, .title-sEvol, .author-home {
@@ -109,8 +117,8 @@ body {
 }
 
 .info-container {
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
 	background-color: #3c786b;
 	border: 2px dashed #eebf6d;
 	border-radius: 50%;
