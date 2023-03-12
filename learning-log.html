@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-		<nav class="navbar"> <!-- NAVIGATION BAR -->
+		<nav> <!-- NAVIGATION BAR -->
 			<ul class="navlist">
 				<li><a href="./index.html">Home</a></li>
 				<li><a>Project Log</a></li>
@@ -19,32 +19,14 @@
 			</ul>
 
 			<div class="divide-line-navbar"></div>
-
-			<div class="contact-info-box">
-				<div class="info-container">
-					<a href="https://github.com/skibidibidop" target="_blank">
-					<img src="./images/github-logo1.png" alt="Github logo">
-					</a>
-				</div>
-
-				<div class="info-container">
-					<a href="mailto:dev.mapb@gmail.com">
-					<img src="./images/email-logo.png" alt="Email logo">
-					</a>
-				</div>
-			</div>
 		</nav>
 
-		<div class="behind-navbar"></div>
-			<!-- Makes the main body flex. Actual navbar doesn't
-			interact properly because of position:fixed -->
-
-		<div class="main"> <!-- MAIN BODY -->
-			<div class="title-block"> <!-- TITLE -->
+		<main>
+			<div class="title-block">
 				<h1 class="title-home-learnlog">Learning Log</h1>
 			</div>
 
-			<div>
+			<article>
 				<p class="entry-learnlog"><strong>Mar. 9, 2023:</strong> I've
 				gone down several rabbit holes! Fortunately, they were pretty
 				useful rabbit holes. So far, I've learned about Neovim
@@ -96,7 +78,21 @@
 				I can make my own website to document my learning journey and
 				projects.
 				</p>
+			</article>
+		</main>
+
+		<aside>
+			<div class="info-container">
+				<a href="https://github.com/skibidibidop" target="_blank">
+				<img src="./images/github-logo1.png" alt="Github logo">
+				</a>
 			</div>
-		</div>
+
+			<div class="info-container">
+				<a href="mailto:dev.mapb@gmail.com">
+				<img src="./images/email-logo.png" alt="Email logo">
+				</a>
+			</div>
+		</aside>
 	</body>
 </html>
